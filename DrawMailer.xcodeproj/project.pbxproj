@@ -1,0 +1,68 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 60;
+ objects = {
+/* Begin PBXBuildFile section */
+   FB73BE2A7887F32D512EC848 = {isa = PBXBuildFile; fileRef = CC4A700032DADC857624A85C; };
+   AABCC8148324DCF7311D49EA = {isa = PBXBuildFile; fileRef = D7755E437B57A916C0112CB7; };
+   7FE545749E02351B27A82CCD = {isa = PBXBuildFile; fileRef = 9FBCE42ABB18229C167AE0E9; };
+   7D641336C9E3CDC77C06CC84 = {isa = PBXBuildFile; fileRef = DC6D39C0C06641CF4C7AC72A; };
+   9ADCE047277CF5F31ADBDD4F = {isa = PBXBuildFile; fileRef = B39662D7170A19BE8B8B3109; };
+   DF7BF51A23196FD2C160C66A = {isa = PBXBuildFile; fileRef = 1584188057B7C8FED2A7B3FA; };
+   C7E3F101AB951F15E4202B96 = {isa = PBXBuildFile; fileRef = 6C12ECC8BE0F6A4EDFB1A388; };
+   FAE5CAA60C49955A87342647 = {isa = PBXBuildFile; fileRef = 15DA593E189686542E6763E6; };
+   027AFC9329906FA946B4B3C5 = {isa = PBXBuildFile; fileRef = F9938334643C40A51202094E; };
+   4AAB0D69E68C5E41D56EDE7E = {isa = PBXBuildFile; fileRef = AD2EF8EE6FF8C6CBD40B85A9; };
+   DCC8C2E7FF15BE0E7C06614D = {isa = PBXBuildFile; fileRef = 3AF903B4F507DDFFFD439F0E; };
+   EE8074294D2462E1ABFFD5BB = {isa = PBXBuildFile; fileRef = E0912B02F325937301BAF687; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+   CC4A700032DADC857624A85C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+   D7755E437B57A916C0112CB7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMailerApp.swift; sourceTree = "<group>"; };
+   9FBCE42ABB18229C167AE0E9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+   DC6D39C0C06641CF4C7AC72A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+   B39662D7170A19BE8B8B3109 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardCanvas.swift; sourceTree = "<group>"; };
+   1584188057B7C8FED2A7B3FA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardView.swift; sourceTree = "<group>"; };
+   6C12ECC8BE0F6A4EDFB1A388 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayView.swift; sourceTree = "<group>"; };
+   15DA593E189686542E6763E6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sketchbook.swift; sourceTree = "<group>"; };
+   F9938334643C40A51202094E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+   AD2EF8EE6FF8C6CBD40B85A9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeShape.swift; sourceTree = "<group>"; };
+   3AF903B4F507DDFFFD439F0E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokesView.swift; sourceTree = "<group>"; };
+   E0912B02F325937301BAF687 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+   DF56A81F6C35A89FD50C8B5E = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawMailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+   FAD58DE7366495DB4650CFEF = {isa = PBXGroup; children = (20F4BD606C0F6D1645AE4919, D6E4A9B6646C62FC48BAA6DD, ); sourceTree = "<group>"; };
+   20F4BD606C0F6D1645AE4919 = {isa = PBXGroup; children = (CC4A700032DADC857624A85C, D7755E437B57A916C0112CB7, 9FBCE42ABB18229C167AE0E9, DC6D39C0C06641CF4C7AC72A, B39662D7170A19BE8B8B3109, 1584188057B7C8FED2A7B3FA, 6C12ECC8BE0F6A4EDFB1A388, 15DA593E189686542E6763E6, F9938334643C40A51202094E, AD2EF8EE6FF8C6CBD40B85A9, 3AF903B4F507DDFFFD439F0E, E0912B02F325937301BAF687, ); path = DrawMailer; sourceTree = "<group>"; };
+   D6E4A9B6646C62FC48BAA6DD = {isa = PBXGroup; children = (DF56A81F6C35A89FD50C8B5E, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXSourcesBuildPhase section */
+   F2AB5FB218DA8B84623F4557 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (FB73BE2A7887F32D512EC848, AABCC8148324DCF7311D49EA, 7FE545749E02351B27A82CCD, 7D641336C9E3CDC77C06CC84, 9ADCE047277CF5F31ADBDD4F, DF7BF51A23196FD2C160C66A, C7E3F101AB951F15E4202B96, FAE5CAA60C49955A87342647, 027AFC9329906FA946B4B3C5, 4AAB0D69E68C5E41D56EDE7E, DCC8C2E7FF15BE0E7C06614D, EE8074294D2462E1ABFFD5BB, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+   55B558C7EF820E6E00E5993B = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXFrameworksBuildPhase section */
+   4F6F5CC3FCCF73F75AE9CCF4 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXNativeTarget section */
+   42AEFBAE01D2DFD981F7DA7D = {isa = PBXNativeTarget; buildConfigurationList = 3924E3C1E0DDDD7543E38FA6; buildPhases = (F2AB5FB218DA8B84623F4557, 4F6F5CC3FCCF73F75AE9CCF4, 55B558C7EF820E6E00E5993B, ); buildRules = (); dependencies = (); name = DrawMailer; productName = DrawMailer; productReference = DF56A81F6C35A89FD50C8B5E; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+   46F86FAA6BBF9AC94A7E4595 = {isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2600; TargetAttributes = { 42AEFBAE01D2DFD981F7DA7D = { CreatedOnToolsVersion = 26.0; }; }; }; buildConfigurationList = EEF0B44039EDB639024F3C9B; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = FAD58DE7366495DB4650CFEF; productRefGroup = D6E4A9B6646C62FC48BAA6DD; projectDirPath = ""; projectRoot = ""; targets = (42AEFBAE01D2DFD981F7DA7D, ); };
+/* End PBXProject section */
+/* Begin XCBuildConfiguration section */
+   AD42F6697B035B7580E4FEF9 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 6.0; IPHONEOS_DEPLOYMENT_TARGET = 26.0; SDKROOT = iphoneos; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+   123FEAD50246387983EE3405 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 6.0; IPHONEOS_DEPLOYMENT_TARGET = 26.0; SDKROOT = iphoneos; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+   FA7C752E798F561D7D156D98 = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = hr.ritcroatia.dk9397.DrawMailer; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = 6.0; SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor; IPHONEOS_DEPLOYMENT_TARGET = 26.0; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; }; name = Debug; };
+   22F75101C717335ACF4089A0 = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = hr.ritcroatia.dk9397.DrawMailer; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = 6.0; SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor; IPHONEOS_DEPLOYMENT_TARGET = 26.0; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+   EEF0B44039EDB639024F3C9B = {isa = XCConfigurationList; buildConfigurations = (AD42F6697B035B7580E4FEF9, 123FEAD50246387983EE3405, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+   3924E3C1E0DDDD7543E38FA6 = {isa = XCConfigurationList; buildConfigurations = (FA7C752E798F561D7D156D98, 22F75101C717335ACF4089A0, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+ };
+ rootObject = 46F86FAA6BBF9AC94A7E4595;
+}
